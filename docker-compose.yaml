@@ -23,7 +23,7 @@ services:
     #do we need to expose ports 
     ports:
       - 3000:3000
-    container_name: just_api
+    container_name: quiz_api
     #where does the code live
     volumes:
       - type: bind
